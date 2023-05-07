@@ -1,0 +1,20 @@
+[debug] [2023-01-11T20:06:42.545Z] ----------------------------------------------------------------------
+[debug] [2023-01-11T20:06:42.548Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Fakhar E Alam\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js apps:list ios --json --project=fir-auth-f23d3
+[debug] [2023-01-11T20:06:42.548Z] CLI Version:   11.20.0
+[debug] [2023-01-11T20:06:42.549Z] Platform:      win32
+[debug] [2023-01-11T20:06:42.549Z] Node Version:  v18.12.1
+[debug] [2023-01-11T20:06:42.551Z] Time:          Thu Jan 12 2023 01:06:42 GMT+0500 (Pakistan Standard Time)
+[debug] [2023-01-11T20:06:42.551Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-01-11T20:06:42.564Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-01-11T20:06:42.565Z] > authorizing via signed-in user (fakharalam792@gmail.com)
+[debug] [2023-01-11T20:06:42.575Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-auth-f23d3/iosApps pageSize=100
+[debug] [2023-01-11T20:06:43.259Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-auth-f23d3/iosApps 200
+[debug] [2023-01-11T20:06:43.260Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-auth-f23d3/iosApps {}
+[info] No apps found.
+[debug] [2023-01-11T20:06:49.055Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\Fakhar E Alam\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+[error] 
+[error] Error: An unexpected error has occurred.
